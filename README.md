@@ -1,26 +1,15 @@
-# Cubic SplineInterpolation
+# Cubic Spline Interpolation
 
 ## clamped boundary condition
 
-The $m_0$ and $m_n​$ are given and meet:
-$$
-S'(x_0)=m_0, S'(x_n)=m_n
-$$
+The <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20m_0"/> and <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20m_n"/> are given and meet:
+<img src="https://latex.codecogs.com/svg.latex?S%27%28x_0%29%3Dm_0%2CS%27%28x_n%29%3Dm_n"/>
 
 ## natural boundary conditions
 
-The $M_0$ and $M_n​$ are given and meet:
-$$
-S''(x_0)=M_0,S''(x_n)=M_n \\
-2m_0+m_1=3f[x_0,x_1]-\frac{h_1}{2}M_0 \\
-m_{n-1}+2m_n=3f[x_{n-1},x_n]+\frac{h_n}{2}M_n
-$$
+The <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20M_0"/> and <img src="https://latex.codecogs.com/svg.latex?%5Cinline%20M_n"/> are given and meet:
+<img src="https://latex.codecogs.com/svg.latex?S%27%27%28x_0%29%3DM_0%2CS%27%27%28x_n%29%3DM_n%20%5C%5C%202m_0&plus;m_1%3D3f%5Bx_0%2Cx_1%5D-%5Cfrac%7Bh_1%7D%7B2%7DM_0%20%5C%5C%20m_%7Bn-1%7D&plus;2m_n%3D3f%5Bx_%7Bn-1%7D%2Cx_n%5D&plus;%5Cfrac%7Bh_n%7D%7B2%7DM_n"/>
 
 ## periodic boundary conditions(unfinished)
 
-$$
-S''(x_0)=S''(x_n),S'(x_0)=S'(x_n)
-$$
-
-### Test LaTeX
-<img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;S'(x_0)=m_0,&space;S'(x_n)=m_n"/>
+<img src="https://latex.codecogs.com/svg.latex?S%27%27%28x_0%29%3DS%27%27%28x_n%29%2CS%27%28x_0%29%3DS%27%28x_n%29"/>
